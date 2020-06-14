@@ -4,11 +4,6 @@ collections:
   /:
     permalink: /{slug}/
     template: index
-    filter: 'tag:-[hash-en]'
-  /en/:
-    permalink: /en/{slug}/
-    template: index-en
-    filter: 'tag:hash-en'
 
 taxonomies:
   tag: /tag/{slug}/
