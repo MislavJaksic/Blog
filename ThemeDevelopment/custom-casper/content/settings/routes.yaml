@@ -1,4 +1,7 @@
 routes:
+  /test/:
+    permalink: /test/
+    template: page-test
 
 collections:
   /:

@@ -1,3 +1,5 @@
+<!-- base template -->
+
 <!DOCTYPE html>
 <html lang="{{@site.lang}}">
 <head>
@@ -22,8 +24,7 @@
 
     <div class="site-wrapper">
 
-        {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
-        {{{body}}}
+        {{{body}}}  <!-- where other `*.hbs` insert themselves -->
 
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="site-footer outer">

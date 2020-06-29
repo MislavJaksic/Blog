@@ -1,0 +1,27 @@
+{{!< default}}
+<!-- insert self into `*.hbs` -->
+
+<header class="site-header">
+  {{> site-header}}
+</header>
+
+{{#post}}  <!-- useless if the content is in the file -->
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+        <article class="post-full {{post_class}} {{#unless feature_image}}no-image{{/unless}}">
+            <header class="post-full-header">
+                <h1 class="post-full-title">Page-Title</h1>
+            </header>
+            <section class="post-full-content">
+                <div class="post-content">
+                    Page-Content
+                </div>
+            </section>
+        </article>
+    </div>
+</main>
+{{/post}}
+
+<p>hello</p>
+
+<p>hello</p>
